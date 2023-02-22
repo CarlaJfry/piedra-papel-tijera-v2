@@ -1,0 +1,24 @@
+/*
+Los estilos css de esta web son algo simples. ¿Quieres mejorarlos un poco? 
+*/
+
+img{ /* Estos son los estilos de las imagenes */
+  height: 128px;
+  width: auto;
+}
+
+button.selected{ /* El color de fondo y del borde del botón cambiará con estos estilos */
+  background-color: green;
+  opacity: 1;
+}
+
+button {
+  opacity: 0.25;
+}
+
+.container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
